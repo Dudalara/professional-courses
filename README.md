@@ -3,6 +3,9 @@ Projeto realizado para disciplina Desenvolvimento Web 4 com o tema Controle de i
 
 # Checklist
 
+# Protótipo Figma
+https://www.figma.com/file/RrscOzM7RZHdu0T2qlZWg8/Controle-de-inscritos-em-cursos-profissionalizantes?node-id=2-24&t=mrXusjLFWh89drdY-0
+
 - [ ] Encaminhamento e redirecionamento
     - [ ] Usar encaminhamento fora do modelo MVC (i.e. um servlet encaminhando a requisição para outro servlet). A dica é dividir um processamento complexo em duas etapas, ou seja, em dois servlets.
     - [ ] Usar redirecionamento depois de requisições POST de um formulário para evitar o reenvio destes dados ao atualizar a página com F5.
