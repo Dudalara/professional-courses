@@ -22,6 +22,7 @@
     <!-- CSS -->
 
     <link rel="stylesheet" href="assets/resources/styles/main.css"></link>
+    <link rel="stylesheet" href="assets/resources/styles/login.css"></link>
     <link rel="stylesheet" href="assets/resources/styles/template.css"></link>
     <link rel="stylesheet" href="assets/libraries/materialize/css/materialize.css"></link>
     <link rel="stylesheet" href="assets/libraries/font-awesome/css/font-awesome.min.css"></link>
@@ -31,7 +32,7 @@
 <header>
     <div class="navbar-fixed" style="z-index: 999">
         <nav>
-            <div class="nav-wrapper blue">
+            <div class="nav-wrapper">
                 <div class="container">
                <a href="#" data-activates="mobile-demo" class="button-collapse"><i
                         class="material-icons">menu</i></a>
@@ -66,11 +67,10 @@
     <jsp:doBody></jsp:doBody>
 </main>
 <!-- rodape-->
-<footer class="page-footer blue darken-5">
+<footer class="page-footer">
     <div class="footer-copyright">
         <div class="container center">
-            &#169; Copyright <span id="year"></span> - Todos os direitos
-            reservados
+            &#169; 2023 Copyright
         </div>
     </div>
 </footer>
