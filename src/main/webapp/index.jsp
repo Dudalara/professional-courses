@@ -3,12 +3,33 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<t:template title="Tela Inicial">
+<t:template title="Login">
     <jsp:body>
-        <h1>Tela Inicial</h1>
-
-        <a href="hello-servlet">Alô Mundo!</a>
-        <a href="calculadora-idade">Teste</a>
-
+        <div id="login-page" class="row">
+            <div class="col s12 z-depth-6 card-panel">
+                <form class="login-form">
+                    <div class="row">
+                    </div>
+                    <div class="row">
+                        <img src="assets/resources/images/logo.png" alt="" width="600">
+                        <div class="input-field col s12">
+                            <input class="validate" id="email" type="email">
+                            <label for="email" data-error="wrong" data-success="right">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <a href="#" class="btn waves-effect waves-light col s12">Login</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </jsp:body>
 </t:template>

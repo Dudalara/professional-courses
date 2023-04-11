@@ -12,15 +12,17 @@ main {
     flex: 1 0 auto;
 }
 
+.page-footer {
+    background-color: #BA0000;
+}
+
+header{
+    background-color: #BA0000;
+}
 /*
 @font-face {
     font-family: Roboto;
     src: url(../node_modules/materialize-css/fonts/roboto/Roboto-Light.ttf);
-}
-*/
-.utf-logo{
-    height: 1.6em;
-    margin-top: 0.2em;
 }
 
 .utf-logo-nav{
