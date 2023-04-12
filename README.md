@@ -28,7 +28,7 @@ https://www.figma.com/file/RrscOzM7RZHdu0T2qlZWg8/Controle-de-inscritos-em-curso
 - [ ] JSTL e TagLib
     - [ ] forEach
     - [ ] if
-    - [ ] Template com cabeçalho e rodapé
+    - [X] Template com cabeçalho e rodapé
 - [ ] JavaScript
     - [ ] Requisição AJAX
     - [ ] Armazenamento no LocalStorage
