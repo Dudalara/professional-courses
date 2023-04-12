@@ -29,9 +29,9 @@ https://www.figma.com/file/RrscOzM7RZHdu0T2qlZWg8/Controle-de-inscritos-em-curso
     - [ ] forEach
     - [ ] if
     - [X] Template com cabeçalho e rodapé
-- [ ] JavaScript
+- [x] JavaScript
     - [x] Requisição AJAX
-    - [ ] Armazenamento no LocalStorage
+    - [x] Armazenamento no LocalStorage
     - [x] Uso de plugin JQuery
 - [ ] JPA
     - [ ] No mínimo 2 entidades
