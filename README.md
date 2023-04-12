@@ -30,9 +30,9 @@ https://www.figma.com/file/RrscOzM7RZHdu0T2qlZWg8/Controle-de-inscritos-em-curso
     - [ ] if
     - [X] Template com cabeçalho e rodapé
 - [ ] JavaScript
-    - [ ] Requisição AJAX
+    - [x] Requisição AJAX
     - [ ] Armazenamento no LocalStorage
-    - [ ] Uso de plugin JQuery
+    - [x] Uso de plugin JQuery
 - [ ] JPA
     - [ ] No mínimo 2 entidades
     - [ ] Operações de CRUD (apenas CREATE/INSERT e READ/SELECT).
