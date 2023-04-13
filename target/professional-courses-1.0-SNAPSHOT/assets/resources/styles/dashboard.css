@@ -1,0 +1,15 @@
+.card {
+    background: rgba(255, 205, 177, 0.17);
+    border-radius: 2px;
+    color: black;
+    padding: 20x;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}

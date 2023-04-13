@@ -3,7 +3,6 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="professional-courses:war" />
-      <artifact name="unnamed" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -11,217 +10,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17253951-d295-4875-bd48-205a469fa14f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dao/CourseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dao/RegisteredDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/mapper/CourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/mapper/RegisteredMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/service/RegisteredService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/dashboard.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/500.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/registered-create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user-create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/AgeCalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/RegisteredController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/AgeResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/CityController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/DateCalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/StateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dao/CityDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dao/StateDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/domain/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/domain/Registered.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/domain/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/domain/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dto/CityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dto/RegisteredDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dto/StateDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dto/CourseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/mapper/CityMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/mapper/StateMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/service/CityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/service/StateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/registered-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/controller/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/controller/RegisteredListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/RegisteredController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/controller/RegisteredController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/filter/FlashScopeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/filter/FlashScopeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dao/AbstractDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/dao/AbstractDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dao/CourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/dao/CourseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dao/RegisteredDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/dao/RegisteredDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/domain/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/domain/Registered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/domain/Registered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dto/CourseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/dto/CourseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dto/RegisteredDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/dto/RegisteredDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/mapper/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/mapper/RegisteredMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/mapper/RegisteredMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/model/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/model/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/service/AbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/service/AbstractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/service/RegisteredService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/service/RegisteredService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/util/JPAUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/util/JPAUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/hello_app/util/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/professional_courses/util/Routes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/age-calculator.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/age-result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/400.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/400.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/server-error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/400.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/403.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/404.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/500.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/styles/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/500.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/registered-create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/registered-create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user-create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user-create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/libraries/materialize/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/libraries/materialize/css/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/styles/dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/styles/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/styles/template.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/controller/AgeCalculatorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/controller/AgeResultController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/controller/DateCalculatorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/controller/StateController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/dao/CityDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/dao/StateDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/domain/City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/domain/State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/dto/CityDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/dto/StateDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/dto/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/mapper/CityMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/mapper/StateMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/service/CityService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/service/StateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/util/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/util/JPAUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/util/JPAUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/META-INF/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/AgeCalculatorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/AgeResultController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/CityController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/DateCalculatorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/StateController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/filter/FlashScopeFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dao/AbstractDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dao/CityDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dao/StateDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dao/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/domain/City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/domain/State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dto/CityDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dto/StateDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dto/UserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/mapper/CityMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/mapper/StateMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/service/AbstractService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/service/CityService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/service/StateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/util/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/util/JPAUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/util/Routes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.12.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.6.7.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.4.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.4.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.49.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/tags/template.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/view/age-calculator.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/view/age-result.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/view/error/400.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/view/error/404.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/view/error/server-error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/jquery.mask.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/jquery/jquery-2.2.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/css/materialize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/css/materialize.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Thin.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Thin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/fonts/roboto/Roboto-Thin.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/js/materialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/libraries/materialize/js/materialize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/resources/images/400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/resources/images/403.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/resources/images/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/resources/images/500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/resources/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/resources/images/utfpr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/resources/scripts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/resources/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/assets/resources/styles/template.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-app-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/controller/RegisteredController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/controller/RegisteredController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/domain/Registered.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/utfpr/hello_app/model/domain/Registered.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/META-INF/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/META-INF/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/AgeCalculatorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/AgeResultController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/DateCalculatorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/StateController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dao/CityDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dao/StateDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/domain/City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/domain/State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dto/CityDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dto/StateDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/dto/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/mapper/CityMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/mapper/StateMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/service/CityService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/service/StateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/util/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/util/JPAUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/util/JPAUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/RegisteredController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/controller/RegisteredController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/domain/Registered.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/classes/br/edu/utfpr/hello_app/model/domain/Registered.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/tags/template.tag" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/tags/template.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/error/400.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/error/400.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/error/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/error/404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/error/server-error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/images/400.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/images/400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/images/403.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/images/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/images/404.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/images/500.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/images/500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/styles/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/error/500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/error/500.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/registered-create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/registered-create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/user-create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/WEB-INF/view/user-create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/libraries/materialize/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/libraries/materialize/css/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/styles/login.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/styles/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/assets/resources/styles/template.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/professional-courses-1.0-SNAPSHOT/index.jsp" afterDir="false" />
     </list>
@@ -234,6 +78,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -443,10 +288,15 @@
       <workItem from="1681265785430" duration="1612000" />
       <workItem from="1681267431468" duration="10396000" />
       <workItem from="1681341426601" duration="25442000" />
+      <workItem from="1681388338367" duration="19806000" />
+      <workItem from="1681409057910" duration="2914000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/professional_courses$Tomcat_9_0_73.ic" NAME="Tomcat 9.0.73 Coverage Results" MODIFIED="1681404133470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

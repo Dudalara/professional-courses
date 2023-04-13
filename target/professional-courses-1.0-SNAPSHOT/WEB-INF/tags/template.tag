@@ -22,7 +22,7 @@
     <!-- CSS -->
 
     <link rel="stylesheet" href="assets/resources/styles/main.css">
-    <link rel="stylesheet" href="assets/resources/styles/login.css">
+    <link rel="stylesheet" href="assets/resources/styles/dashboard.css">
     <link rel="stylesheet" href="assets/resources/styles/template.css">
     <link rel="stylesheet" href="assets/libraries/materialize/css/materialize.css">
 </head>
@@ -32,29 +32,9 @@
         <nav>
             <div class="nav-wrapper">
                 <div class="container">
-               <a href="#" data-activates="mobile-demo" class="button-collapse"><i
-                        class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="">Início</a></li>
-                        <c:if test="${not empty username}">
-                            <li><a href="logout">Logout</a></li>
-                        </c:if>
-
-                    </ul>
-                    <ul class="side-nav white" id="mobile-demo">
-                        <div class="row">
-                            <div class="col s8 offset-s2">
-                                <div class="center">
-                                    <img class="responsive-img utf-logo-nav"
-                                         src="assets/resources/images/logo.png" />
-                                </div>
-                            </div>
-                        </div>
-
-                        <li><a href="">Início</a></li>
-                        <c:if test="${not empty username}">
-                            <li><a href="logout">Logout</a></li>
-                        </c:if>
+                    <ul id="list" class="right hide-on-med-and-down">
+                        <li><a href="register">Nova inscrição</a></li>
+                        <li><a href="create-user">Novo usuário</a></li>
                     </ul>
                 </div>
             </div>
@@ -76,5 +56,6 @@
 <script src="assets/libraries/jquery.mask.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 <script src="assets/resources/scripts/index.js"></script>
+
 </body>
 </html>
