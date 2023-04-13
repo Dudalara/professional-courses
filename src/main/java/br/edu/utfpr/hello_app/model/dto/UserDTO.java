@@ -8,7 +8,5 @@ public class UserDTO {
     @NonNull
     private String name;
     @NonNull
-    private int year;
-    @NonNull
-    private int age;
+    private CourseDTO state;
 }

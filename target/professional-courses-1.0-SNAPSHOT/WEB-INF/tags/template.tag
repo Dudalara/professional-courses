@@ -21,12 +21,10 @@
 
     <!-- CSS -->
 
-    <link rel="stylesheet" href="assets/resources/styles/main.css"></link>
-    <link rel="stylesheet" href="assets/resources/styles/login.css"></link>
-    <link rel="stylesheet" href="assets/resources/styles/template.css"></link>
-    <link rel="stylesheet" href="assets/libraries/materialize/css/materialize.css"></link>
-    <link rel="stylesheet" href="assets/libraries/font-awesome/css/font-awesome.min.css"></link>
-
+    <link rel="stylesheet" href="assets/resources/styles/main.css">
+    <link rel="stylesheet" href="assets/resources/styles/login.css">
+    <link rel="stylesheet" href="assets/resources/styles/template.css">
+    <link rel="stylesheet" href="assets/libraries/materialize/css/materialize.css">
 </head>
 <body>
 <header>

@@ -7,7 +7,7 @@
     <groupId>br.edu.utfpr</groupId>
     <artifactId>professional-courses</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>hello-app</name>
+    <name>professional-courses</name>
     <packaging>war</packaging>
 
     <properties>

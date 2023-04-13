@@ -19,6 +19,16 @@ main {
 header{
     background-color: #BA0000;
 }
+
+#login-page {
+    width: 600px;
+}
+
+.btn {
+    background-color: #BA0000;
+}
+
+
 /*
 @font-face {
     font-family: Roboto;

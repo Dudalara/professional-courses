@@ -13,7 +13,7 @@
                     <div class="row">
                         <img src="assets/resources/images/logo.png" alt="" width="600">
                         <div class="input-field col s12">
-                            <input class="validate" id="email" type="email">
+                            <input class="validate" id="email" type="email" name="email">
                             <label for="email" data-error="wrong" data-success="right">Email</label>
                         </div>
                     </div>
@@ -25,7 +25,8 @@
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
-                            <a href="#" class="btn waves-effect waves-light col s12">Login</a>
+                            <a href="dashboard" class="btn">Login</a>
+                            <a href="create-user" class="btn">Cadastrar</a>
                         </div>
                     </div>
                 </form>
