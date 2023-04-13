@@ -18,9 +18,9 @@ https://www.figma.com/file/RrscOzM7RZHdu0T2qlZWg8/Controle-de-inscritos-em-curso
     - [X] Tratamento por código de status ou exceção específica
     - [X] Tratamento de erros genérico
 - [X] Expression Language (EL) para acessar os objetos de domínio (beans) da camada de modelo do MVC
-- [ ] JSTL e TagLib
-    - [ ] forEach
-    - [ ] if
+- [X] JSTL e TagLib
+    - [X] forEach
+    - [X] if
     - [X] Template com cabeçalho e rodapé
 - [x] JavaScript
     - [x] Requisição AJAX
