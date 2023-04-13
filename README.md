@@ -33,8 +33,8 @@ https://www.figma.com/file/RrscOzM7RZHdu0T2qlZWg8/Controle-de-inscritos-em-curso
     - [x] Requisição AJAX
     - [x] Armazenamento no LocalStorage
     - [x] Uso de plugin JQuery
-- [ ] JPA
-    - [ ] No mínimo 2 entidades
-    - [ ] Operações de CRUD (apenas CREATE/INSERT e READ/SELECT).
+- [X] JPA
+    - [X] No mínimo 2 entidades
+    - [X] Operações de CRUD (apenas CREATE/INSERT e READ/SELECT).
 
 
