@@ -1,14 +1,12 @@
-
-    window.onload =  function () {
+window.onload =  function () {
     var currentUrl = window.location.href;
-
     var tag = document.getElementById("list");
     if (currentUrl.includes("dashboard")) {
-    tag.style.display = "block";
-} else {
-    tag.style.display = "none";
+        tag.style.display = "block";
+    } else {
+        tag.style.display = "none";
 
-}
+    }
         $('#login').on('focusout', function(){
             var login = document.getElementById("login").value;
             localStorage.setItem('login', login);

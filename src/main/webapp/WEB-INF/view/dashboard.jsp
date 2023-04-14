@@ -15,7 +15,7 @@
                               <div class="card-content">
                                   <div class="row">
                                   <span class="card-title">Curso de ${course.name}</span>
-                                  <a href="registered-list" class="btn col s8 offset-s2">Visualizar inscritos</a>
+                                  <a href="registered-list?course=${course.id}" class="btn col s8 offset-s2">Visualizar inscritos</a>
                                   </div>
                               </div>
                           </div>

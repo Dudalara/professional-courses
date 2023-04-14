@@ -5,7 +5,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    font-family: "Roboto", serif;
+    font-family: ;
 }
 
 main {
@@ -34,6 +34,11 @@ header{
 
 label {
     color:#BA0000 !important;
+}
+
+input[type=text]:focus{
+ border-color: #BA0000 !important;
+ box-shadow: #BA0000 !important;
 }
 
 select {

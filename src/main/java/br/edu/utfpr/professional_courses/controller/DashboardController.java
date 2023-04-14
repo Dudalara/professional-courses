@@ -57,7 +57,6 @@ public class DashboardController extends HttpServlet {
     private long calculateMonth(){
         Calendar calendar = Calendar.getInstance();
 
-
         calendar.add(Calendar.MONTH, 1);
         long expiry = calendar.getTimeInMillis();
         long difference = expiry - System.currentTimeMillis();

@@ -36,6 +36,11 @@ label {
     color:#BA0000 !important;
 }
 
+input[type=text]:focus{
+ border-color: #BA0000 !important;
+ box-shadow: #BA0000 !important;
+}
+
 select {
     background-color: rgba(255, 205, 177, 0.17) !important;
 }

@@ -7,25 +7,25 @@
     <jsp:body>
         <div id="login-page" class="container">
             <div class="col s12 z-depth-6 card-panel">
-                <form class="login-form">
+                <form action="dashboard" method="get" class="login-form">
                     <div class="row">
                     </div>
                     <div class="row">
                         <img src="assets/resources/images/logo.png" alt="" width="100%" >
                         <div class="input-field col s12">
-                            <input class="validate" id="login" type="email" name="login">
+                            <input class="validate" id="login" type="text" name="login" required>
                             <label for="login">Login</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
-                            <input id="password" type="password">
+                            <input id="password" type="password" required>
                             <label for="password">Senha</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
-                            <a href="dashboard" class="btn col s12">Login</a>
+                            <button class="btn col s12">Login</button>
                         </div>
                     </div>
                 </form>

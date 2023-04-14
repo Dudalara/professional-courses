@@ -1,8 +1,4 @@
-<%--
-    Document   : template
-    Created on : Apr 5, 2017, 3:02:46 PM
-    Author     : Roni
---%>
+
 
 <%@tag description="Template principal" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -11,7 +7,7 @@
 <%@attribute name="title"%>
 
 
-<html>
+<html lang="pt-br">
 <head>
     <title>${title}</title>
     <base href="${pageContext.request.contextPath}/">
